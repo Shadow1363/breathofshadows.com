@@ -77,28 +77,22 @@ main {
 	padding: 2rem 0;
 }
 
-.coming-soon {
-	text-align: center;
-	width: 100%;
-	max-width: 700px;
-}
-
-.coming-soon h2 {
-	font-size: 2.5rem;
-	margin-bottom: 2rem;
+.coming-soon-container {
 	position: relative;
-	display: inline-block;
+	margin-bottom: 3rem;
 }
 
-.coming-soon h2:after {
-	content: "";
-	position: absolute;
-	width: 60%;
-	height: 4px;
-	background: var(--primary-color);
-	bottom: -10px;
-	left: 20%;
-	border-radius: 2px;
+.coming-soon {
+	font-size: 6rem;
+	font-weight: bold;
+	position: relative;
+	letter-spacing: 3px;
+	background: linear-gradient(90deg, #6442ff, #b57fff, #6442ff);
+	background-size: 200% auto;
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	animation: gradientMove 5s linear infinite;
 }
 
 .countdown {
